@@ -7,4 +7,8 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
+<<<<<<< HEAD
   channel_prefix: depot_production
+=======
+  channel_prefix: demo_production
+>>>>>>> 5adc8e38c6b881e12d11a6e25b432b81c4f3f7f2

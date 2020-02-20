@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+<<<<<<< HEAD
 
 Product.delete_all
 # . . .
@@ -32,3 +33,5 @@ all of whom are students at Hogwarts School of Witchcraft and Wizardry.
 image_url: 'hp.jpg',
 price: 126.00)
 # . . .
+=======
+>>>>>>> 5adc8e38c6b881e12d11a6e25b432b81c4f3f7f2

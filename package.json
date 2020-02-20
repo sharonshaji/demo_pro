@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "depot",
+=======
+  "name": "demo",
+>>>>>>> 5adc8e38c6b881e12d11a6e25b432b81c4f3f7f2
   "private": true,
   "dependencies": {}
 }
