@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'store/index' => 'store#index'
+
   resources :products
 
   get 'say/hello'

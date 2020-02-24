@@ -1,5 +1,7 @@
 # README
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/0fe8c6fb756afa51acfa/maintainability)](https://codeclimate.com/github/sharonshaji/demo_pro/maintainability)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
