@@ -2,31 +2,37 @@
 <html>
   <head>
     <title>Books Online Store</title>
-
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all',
+                            'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application',
+                               'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <header class="main"
-      <%= image_tag 'logo.svg', alt: 'The Bookshelf' %>
+    <header class="main">
+      <%= image_tag 'logo1.png', alt: 'The Bookshelf' %>
       <h1><%= @page_title %></h1>
     </header>
-
     <section class="content">
       <nav class="side_nav">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/questios">Questions</a></li>
-          <li><a 
-       </ul>
-     <nav>
+        <% if @cart %>
+          <div id="cart" class="carts">
+            <%= render @cart %>
+          </div>
+        <% end %>
 
-    <main class='<%= controller.controller_name %>'>
-    <%= yield %>
-    </main
-   </section>
+        <ul>
+          <li><a href="/store/index">Home</a></li>
+          <li><a href="/questions">Questions</a></li>
+          <li><a href="/news">News</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+			<main class='<%= controller.controller_name %>'>
+        <%= yield %>
+      </main>
+    </section>
   </body>
 </html>

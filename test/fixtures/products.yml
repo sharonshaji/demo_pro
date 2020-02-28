@@ -17,3 +17,9 @@ one:
   description: Ruby fastest and dynamic growing language for web application.
   image_url: ruby.png
   price: 99.99
+
+ruby:
+  title: Programming ruby 1.9
+  description: Ruby fastest and dynamic growing language for web application.
+  image_url: ruby.png
+  price: 89.99
