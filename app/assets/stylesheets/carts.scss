@@ -32,14 +32,29 @@
   }
 }
 input[type="submit"] {
-  background-color: #881;
+  background-color: #0f664e;
   border-radius: 0.354em;
   border: solid thin #441;
   color: white;
   font-size: 1em;
   padding: 0.354em 1em;
   }
-input[type="submit"]:hover {
-  background-color: #992;
+
+ input[type="submit"]:hover {
+    background-color: #2ea38e;
   }
+
+  input.checkout {
+    // float: right;
+    background-color: #bfb;
+    border-radius: 0.354em;
+    border: solid thin #441;
+    color: black;
+    font-size: 1em;
+    padding: 0.354em 1em;
+    }
+  input.checkout:hover {
+    background-color: #77d1b6;
+  }
+
 }
